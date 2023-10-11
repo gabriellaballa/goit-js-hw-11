@@ -1,0 +1,29 @@
+.container {
+  margin: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.info {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  border: 1px solid rgb(226, 220, 220);
+  border-top-style: none;
+}
+.photo-card {
+  img {
+    width: 350px;
+    height: 200px;
+  }
+  &:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+}
