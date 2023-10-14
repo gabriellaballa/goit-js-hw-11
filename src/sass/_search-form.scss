@@ -3,13 +3,18 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin: 20px;
+  background: #f2d03a;
+  //margin: 20px;
 }
 input[type='text'] {
   width: 340px;
   height: 50px;
   padding: 0 25px;
   border-radius: 25px 0 0 25px;
+  border: 2px solid yellow;
+  &:focus {
+    border: none;
+  }
 }
 input[type='submit'] {
   position: relative;
