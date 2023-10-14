@@ -134,5 +134,4 @@ function isAtBottom() {
   return scrollY + windowHeight >= documentHeight;
 }
 
-// Initially hide the "Load more" button
 loadMoreBtn.style.visibility = 'hidden';
